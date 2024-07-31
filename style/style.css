@@ -1,0 +1,151 @@
+@media only screen and (min-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: block;
+        background-color: #090714;
+    }
+    .container{
+        width: 600px;
+        height: 540px;
+        background-color:#2C3A47;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 50px;
+        border-radius: 30px;
+    }
+    .star{
+        background-color: #2a3144;
+        width: 25px;
+        height: 25px;
+        border-radius: 30%;
+        color: #ff8c00;
+        margin-bottom: 45px;
+    }
+    .head h1{
+        color: aliceblue;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        margin-bottom: 25px;
+    }
+    .text h3{
+        color:aliceblue;
+        text-align: justify;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .rate{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .rate span{
+        display: inline-flex;
+        flex-direction: row;
+        /* padding: 23px; */
+        margin: 0 20px;
+        background-color:#11273b88;
+        border-radius: 50%;
+        color: darkgrey;
+    }
+    .rate a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 23px;
+    }
+    .rate a:active{
+        background-color:#718093 ;
+        border-radius: 50%;
+    }
+    .rate span:hover{
+        background-color: #ff8c00;
+        color: aliceblue;
+    }
+    button{
+        text-align: center;
+        background-color: #ff8c00;
+        color: aliceblue;
+        font-size: 18px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width:500px ;
+        height: 50px;
+        margin-top: 40px;
+        border-radius: 30px;
+        border:none;
+    }
+    button:hover{
+        background-color:aliceblue;
+        color: #ff8c00;
+    }
+    /* .btn ul{
+        text-align: center;
+        margin-top: 50px;
+        width: auto;
+        height: 50px;
+        background-color: #ff8c00;
+        list-style-type: none;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 30px;
+        font-size: larger;
+    }
+    .btn a{
+        text-decoration: none;
+        float: center;
+        text-align: center;
+        margin-bottom: 15px;
+        color: aliceblue;
+    }
+    .btn ul:hover{
+        background-color: aliceblue;
+    }
+    .btn a:hover{
+        color:#ff8c00;
+    } */
+    
+
+}
+@media only screen and (max-width:768px){
+    *{
+        
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: block;
+        margin: 30px;
+        background-color: #090714;
+    }
+    .container{
+        background-color:#2C3A47;
+        display: block;
+        margin: 0 auto;
+        /* margin-top:  150px;
+        margin-bottom: 150px;
+        margin-left: 50px;
+        margin-right: 50px; */
+        width: auto;
+        height: auto;
+        min-width: 200px;
+        border-radius: 30px;
+        padding: 90px;
+    }
+    .star{
+        background-color:#2a3144;
+        color: #ff8c00;
+        width: 25px;
+        border-radius: 10px;
+    }
+    .head h1{
+        margin: 0 auto;
+        color: aliceblue;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        margin-bottom: 25px;
+    }
+    .text h3{
+        color:aliceblue;
+        text-align: justify;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
